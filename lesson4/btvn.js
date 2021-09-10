@@ -7,7 +7,7 @@ function gthua() {
       result = result * i;
     }
     console.log(result)
-    alert("giai thua cua so" + num + "la :" + result)
+    alert("giai thua cua so"+ "" + num + ""+"la :"+""+ result)
   }
 
 
@@ -71,5 +71,5 @@ function nhan2so(){
 function dodai(){
     let str = prompt("Nhap 1 string")
     console.log("string cua b co doi dai la :" + str.length);
-    alert("string cua b co doi dai la :" + str)
+    alert("string cua b co doi dai la :"+"" + str.length)
 }
