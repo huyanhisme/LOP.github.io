@@ -49,8 +49,8 @@ function chiahet(){
 // bai1
 function ten(){
 let FirstName = prompt("Nhap Ho cua ban")
-let SurName = "Trần"
-let LastName = "Huy Anh"
+let SurName = prompt("Nhap Ten Dem cua ban")
+let LastName = prompt("Nhap Ten Cua Ban")
 console.log(FirstName + " " + SurName + " " + LastName )
 alert(FirstName + " " + SurName + " " + LastName)
 }
