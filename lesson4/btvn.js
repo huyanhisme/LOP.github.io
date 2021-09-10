@@ -7,6 +7,7 @@ function gthua() {
       result = result * i;
     }
     console.log(result)
+    alert("giai thua cua so" + num + "la :" + result)
   }
 
 
@@ -18,6 +19,7 @@ function loop() {
       loop = loop + num + "-";
     }
     console.log(loop)
+    alert(loop)
   }
 
 
@@ -46,7 +48,7 @@ function chiahet(){
 
 // bai1
 function ten(){
-let FirstName = "Lê"
+let FirstName = prompt("Nhap Ho cua ban")
 let SurName = "Trần"
 let LastName = "Huy Anh"
 console.log(FirstName + " " + SurName + " " + LastName )
@@ -60,6 +62,7 @@ function nhan2so(){
     let num2 = prompt("Chọn số thứ 2");
     let result = num1 * num2;
     console.log(num1 + "x" + num2 + "=" + result); 
+    alert(num1 + "x" + num2 + "=" + result)
 }
 
 
@@ -67,5 +70,6 @@ function nhan2so(){
 // bai3
 function dodai(){
     let str = prompt("Nhap 1 string")
-    console.log("string cua b co doi dai la :" + str.length)
+    console.log("string cua b co doi dai la :" + str.length);
+    alert("string cua b co doi dai la :" + str)
 }
