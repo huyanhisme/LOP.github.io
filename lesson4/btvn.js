@@ -44,6 +44,24 @@ function chiahet(){
     }
 }
 
+//bai 6
+function day(){
+    var num = prompt("Chon 1 so");
+    if( num > 1 && num <8 ){
+        console.log("thu"+ "" + num)
+        alert("thu"+ "" + num)
+    }
+    else if(num == 0){
+        console.log("chu nhat")
+        alert("thu"+ "" + num)
+    }
+    else{
+        console.log("so ban nhap k hop le")
+        alert("thu"+ "" + num)
+    }
+}
+
+
 
 
 // bai1
