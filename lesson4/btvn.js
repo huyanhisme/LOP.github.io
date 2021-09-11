@@ -18,8 +18,8 @@ function loop() {
     for (let i = 0; i < 10; i++) {
       loop = loop + num + "-";
     }
-    console.log(loop)
-    alert(loop)
+    console.log(loop.slice(0,- 1));
+    alert(loop.slice(0,-1))
   }
 
 
