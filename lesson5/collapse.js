@@ -1,9 +1,17 @@
-let validate = true;
+let collapse = document.querySelector("#collapse")
 
-localStorage.setItem("value",JSON.stringify(false));
-
-function collapse(){
-    if(!validate){
-        localStorage.setItem("value",JSON.stringify(true))
+function reload(){
+    if(
+        JSON.parse(localStorage.getItem("collapse")) == false ||
+        JSON.parse(localStorage.getItem("collapse")) == null
+    ){
+        localStorage.setItem("collapse","true");
+    }
+    else{
+        localStorage.setItem("collapse","false");
     }
 }
+
+reload();
+collapse.onclick = reload;
+reload();

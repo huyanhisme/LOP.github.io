@@ -57,7 +57,7 @@ function day(){
     }
     else{
         console.log("so ban nhap k hop le")
-        alert("thu"+ "" + num)
+        alert("so ban nhap k hop le")
     }
 }
 
